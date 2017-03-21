@@ -1,0 +1,3 @@
+AggregateByCase <- function(group, x){
+  
+}
