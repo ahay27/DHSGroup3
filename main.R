@@ -1,0 +1,8 @@
+rm(list = ls())
+setwd("/Users/shuning/Desktop/Capstone/DHSGroup3")
+dat <- read.csv("DHSMini.csv")
+source("function/DataCleaning.R")
+source("graphs/Plotting.R")
+result <- AggregateByCase(dat$CaseID, dat$MH1)
+PlotByTime1(result$CaseID, result$MHCount)
+PlotByTime2(result$CaseID, result$MHCount)

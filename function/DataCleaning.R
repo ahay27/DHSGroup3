@@ -20,7 +20,7 @@ AggregateByCase <- function(group, x){
 }
 
 # How to use AggregateByCase function
-setwd("/Users/shuning/Desktop/Capstone")
-dat <- read.csv("DHSMini.csv") # read in data
-result <- AggregateByCase(dat$CaseID, dat$MH1) # call AggregateByCase, fill in two parameters
-result[result$CaseID == 31659,] # look at one CaseID and its MHCount
+# setwd("/Users/shuning/Desktop/Capstone")
+# dat <- read.csv("DHSMini.csv") # read in data
+# result <- AggregateByCase(dat$CaseID, dat$MH1) # call AggregateByCase, fill in two parameters
+# result[result$CaseID == 31659,] # look at one CaseID and its MHCount
