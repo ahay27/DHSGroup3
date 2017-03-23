@@ -1,5 +1,5 @@
 rm(list = ls())
-setwd("/Users/shuning/Desktop/Capstone/DHSGroup3")
+setwd("/Users/shuning/Desktop/Capstone/DHSGroup3") # change to where you put the DHSGroup3 folder 
 dat <- read.csv("DHSMini.csv")
 source("function/DataCleaning.R")
 source("graphs/Plotting.R")
